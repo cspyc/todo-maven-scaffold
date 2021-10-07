@@ -1,0 +1,5 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+todo-core,fun.changing.todo.core.exception,TodoItemException,5,0,0,0,2,0,1,0,1,0
+todo-core,fun.changing.todo.core.entity,TodoItem,129,12,20,0,4,5,16,2,6,2
+todo-core,fun.changing.todo.core.service,TodoItemService,0,24,0,2,0,7,0,3,0,2
+todo-core,fun.changing.todo.core.dto,TodoParameter,5,17,1,1,1,6,1,3,0,3

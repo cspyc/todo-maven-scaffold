@@ -1,0 +1,5 @@
+/home/pi/Documents/codeRepo/todo/todo-core/src/main/java/fun/changing/todo/core/service/TodoItemService.java
+/home/pi/Documents/codeRepo/todo/todo-core/src/main/java/fun/changing/todo/core/entity/TodoItem.java
+/home/pi/Documents/codeRepo/todo/todo-core/src/main/java/fun/changing/todo/core/repository/TodoItemRepository.java
+/home/pi/Documents/codeRepo/todo/todo-core/src/main/java/fun/changing/todo/core/dto/TodoParameter.java
+/home/pi/Documents/codeRepo/todo/todo-core/src/main/java/fun/changing/todo/core/exception/TodoItemException.java

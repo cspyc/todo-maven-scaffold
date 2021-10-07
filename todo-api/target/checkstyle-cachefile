@@ -1,0 +1,10 @@
+#Thu Oct 07 22:50:06 CST 2021
+/home/pi/Documents/codeRepo/todo/todo-api/src/main/resources/application.properties=1633600404000
+/home/pi/Documents/codeRepo/todo/todo-api/src/main/java/fun/changing/todo/api/dto/AddTodoItemRequest.java=1633598540000
+/home/pi/Documents/codeRepo/todo/todo-api/src/test/resources/test.properties=1633600410000
+/home/pi/Documents/codeRepo/todo/todo-api/src/main/java/fun/changing/todo/api/Bootstrap.java=1633602794000
+/home/pi/Documents/codeRepo/todo/todo-api/src/main/java/fun/changing/todo/api/dto/MarkAsDoneRequest.java=1633535342000
+module-resource*?\:config/checkstyle/customize_suppression.xml=35F59643CDBD8B5241C54F573DEE2224A49B379B
+/home/pi/Documents/codeRepo/todo/todo-api/src/main/java/fun/changing/todo/api/resource/TodoItemResource.java=1633600382000
+configuration*?=60C2C789A457EB218707B611BBBE854400A2CEB8
+module-resource*?\:checkstyle-xpath-suppressions.xml=9939E0B0AA2760419024D74F1449569FDA1A9422

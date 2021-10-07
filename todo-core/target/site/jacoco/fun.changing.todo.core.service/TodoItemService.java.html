@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>TodoItemService.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">todo-core</a> &gt; <a href="index.source.html" class="el_package">fun.changing.todo.core.service</a> &gt; <span class="el_source">TodoItemService.java</span></div><h1>TodoItemService.java</h1><pre class="source lang-java linenums">/**
+ * @author Me
+ *
+ */
+package fun.changing.todo.core.service;
+
+import fun.changing.todo.core.dto.TodoParameter;
+import fun.changing.todo.core.entity.TodoItem;
+import fun.changing.todo.core.repository.TodoItemRepository;
+import org.springframework.stereotype.Service;
+
+/**
+ * @author pi
+ * @since 2021/10/06 10:57 PM
+ **/
+@Service
+public class TodoItemService {
+    /**
+     * TodoItem repository 数据存储
+     */
+    private final TodoItemRepository repository;
+
+    /**
+     * 构造函数
+     *
+     * @param repository 数据存储
+     */
+<span class="fc" id="L28">    public TodoItemService(final TodoItemRepository repository) {</span>
+<span class="fc" id="L29">        this.repository = repository;</span>
+<span class="fc" id="L30">    }</span>
+
+    /**
+     * 添加item项目
+     *
+     * @param parameter 项目入参
+     * @return 添加的项目结果
+     */
+    public TodoItem addTodoItem(final TodoParameter parameter) {
+<span class="fc bfc" id="L39" title="All 2 branches covered.">        if (parameter == null) {</span>
+<span class="fc" id="L40">            throw new IllegalArgumentException(&quot;Null or empty content is not allowed&quot;);</span>
+        }
+<span class="fc" id="L42">        final TodoItem item = new TodoItem(parameter.getContent());</span>
+<span class="fc" id="L43">        return this.repository.save(item);</span>
+    }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.7.202105040129</span></div></body></html>

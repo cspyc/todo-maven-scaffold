@@ -1,0 +1,4 @@
+fun/changing/todo/api/Bootstrap.class
+fun/changing/todo/api/resource/TodoItemResource.class
+fun/changing/todo/api/dto/AddTodoItemRequest.class
+fun/changing/todo/api/dto/MarkAsDoneRequest.class

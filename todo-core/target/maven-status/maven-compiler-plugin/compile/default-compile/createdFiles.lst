@@ -1,0 +1,5 @@
+fun/changing/todo/core/repository/TodoItemRepository.class
+fun/changing/todo/core/service/TodoItemService.class
+fun/changing/todo/core/entity/TodoItem.class
+fun/changing/todo/core/dto/TodoParameter.class
+fun/changing/todo/core/exception/TodoItemException.class

@@ -1,0 +1,9 @@
+#Thu Oct 07 22:50:03 CST 2021
+/home/pi/Documents/codeRepo/todo/todo-core/src/main/java/fun/changing/todo/core/entity/TodoItem.java=1633600324000
+/home/pi/Documents/codeRepo/todo/todo-core/src/main/java/fun/changing/todo/core/repository/TodoItemRepository.java=1633600178000
+module-resource*?\:config/checkstyle/customize_suppression.xml=35F59643CDBD8B5241C54F573DEE2224A49B379B
+/home/pi/Documents/codeRepo/todo/todo-core/src/main/java/fun/changing/todo/core/service/TodoItemService.java=1633598419000
+module-resource*?\:checkstyle-xpath-suppressions.xml=9939E0B0AA2760419024D74F1449569FDA1A9422
+/home/pi/Documents/codeRepo/todo/todo-core/src/main/java/fun/changing/todo/core/exception/TodoItemException.java=1633533112000
+/home/pi/Documents/codeRepo/todo/todo-core/src/main/java/fun/changing/todo/core/dto/TodoParameter.java=1633600130000
+configuration*?=B34E7680B4F68888BC6B4388B466D82C4BA0D76E
