@@ -37,3 +37,10 @@ P
  config/checkstyle/sun_checks.xml,e/1/e1129456758260e5fb458208ee4e07df0bb82341
 {
 Ktodo-core/src/main/java/fun/changing/todo/core/service/TodoItemService.java,b/1/b135e37b0468c871d4cf29d6b05d88de0e9d8fdd
+[
++config/checkstyle/customize_suppression.xml,3/f/3f4939dbf7b0f596811cce4f2681eb41a02d0cf6
+:
+
+.gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
+9
+	README.md,8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
