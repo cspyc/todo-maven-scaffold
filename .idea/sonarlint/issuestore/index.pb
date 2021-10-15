@@ -11,10 +11,6 @@ k
 Ktodo-api/src/main/java/fun/changing/todo/api/resource/TodoItemResource.java,7/f/7fde220659566f66d096cd9f888ab4677cd394d0
 v
 Ftodo-api/src/test/java/fun/changing/todo/api/TodoItemResourceTest.java,2/8/2878afb5c7409e77042a4297a5f8b66b7137a9b5
-v
-Ftodo-dbmigrate/migration/V2021.10.06.20.34__Insert_todo_item_table.sql,9/f/9f23aba22301604e1b435e4578a927a86fcc7cf5
-v
-Ftodo-dbmigrate/migration/V2021.07.25.18.28__Create_todo_item_table.sql,0/b/0b985b44f34277df84f61df1feed0762c2e1204c
 x
 Htodo-api/src/main/java/fun/changing/todo/api/dto/AddTodoItemRequest.java,f/6/f68023d2ed45af3fd1983ead3280d01d841627b6
 u
@@ -31,8 +27,6 @@ w
 Gtodo-api/src/main/java/fun/changing/todo/api/dto/MarkAsDoneRequest.java,b/d/bd3cb62316974ecc2a4ce54692111ea4414b5aeb
 S
 #config/checkstyle/google_checks.xml,f/a/faecdd97999e8c55d098c262e5de1d962bf220b0
-F
-todo-dbmigrate/pom.xml,3/3/33e7fce03ed5e3879f4226645e4a57c263f2c120
 P
  config/checkstyle/sun_checks.xml,e/1/e1129456758260e5fb458208ee4e07df0bb82341
 {
